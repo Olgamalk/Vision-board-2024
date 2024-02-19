@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Comfortaa';
+  background: url(./pink_rice.png);
+  
+}
+.container {
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.header {
+  height: 100%;
+  align-items: center;
+  
+}
+.header,
+.header-board{
+  display: flex;
+  justify-content: center;
+}
+
+.header-board {
+  display: block;
+  height: 50px;
+  filter: invert(59%) sepia(4%) saturate(1967%) hue-rotate(169deg) brightness(88%) contrast(86%);
+}
+.header-board h2 {
+  font-size: 3rem;
+  padding-top: 10px;
+}
+header {
+  height: 90px;
+  border-bottom: 5px solid #768798;
+  padding: 0 20px;
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+img {
+  /* background-image: url(images/wealthy-one.jpg); */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  border: 1px solid #768798;
+  border-radius: 10px;
+  opacity: 0.8;
+}
